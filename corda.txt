@@ -1,0 +1,14 @@
+*Start the flow
+
+flow start negotiation.flows.DemoFlow$Initiator id: A101, amount: 10, counterParty: PartyB
+
+
+*Run vault querry
+
+run vaultQuery contractStateType: negotiation.states.ProposalState
+
+hello there
+
+I dont know what i am doing.
+
+Lets go with chegg.
